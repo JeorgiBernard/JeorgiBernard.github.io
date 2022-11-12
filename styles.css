@@ -28,6 +28,11 @@ body {
     transition-duration: 0.4s;
 }
 
+.nav-btn>a {
+  color: black;
+  text-decoration: none;
+}
+
 .button:hover {
     background-color: rgb(83, 81, 81);
     color: rgb(126, 18, 18);
@@ -38,12 +43,12 @@ body {
 .image {
     max-width: 100%;
     height: Auto;
-    border-radius: 10px;
+    border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 /* slide show css */
@@ -146,3 +151,33 @@ iconi {
   padding-left: 10px;
 }
 
+/* About page css */
+
+/* name of photographer */
+
+.name {
+  font-size: 30px;
+}
+
+/* image of photographer */
+
+.img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+/* position of image and about paragraph */
+
+.position {
+  Display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.about {
+  border-style: hidden;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  padding: 10px;
+  font-size: 25px;
+}
