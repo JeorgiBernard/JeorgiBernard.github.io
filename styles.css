@@ -38,6 +38,10 @@ text-decoration: none;
   color: rgb(126, 18, 18);
 }
 
+.button:hover>a {
+  color: rgb(126, 18, 18);
+}
+
 /*logo image */
 
 .image {
@@ -48,7 +52,8 @@ text-decoration: none;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 /* slide show css */
@@ -57,7 +62,7 @@ text-decoration: none;
 
 /* Slideshow container */
 .slideshow-container {
-max-width: 1000px;
+max-width: 900px;
 position: relative;
 margin: auto;
 }
@@ -137,6 +142,8 @@ display: flex;
 justify-content: center;
 padding-top: 25px;
 cursor: pointer;
+margin-top: 15px;
+margin-bottom: 15px;
 }
 
 iconf {
@@ -156,7 +163,10 @@ padding-left: 10px;
 /* name of photographer */
 
 .name {
-font-size: 30px;
+  font-family: sans-serif;
+font-size: 40pt;
+text-align: center;
+font-weight: 700;
 }
 
 /* image of photographer */
@@ -171,7 +181,8 @@ border-radius: 10px;
 .position {
 Display: flex;
 justify-content: space-evenly;
-
+margin-left: 50px;
+margin-right: 50px;
 }
 
 .about {
