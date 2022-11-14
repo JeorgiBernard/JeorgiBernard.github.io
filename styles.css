@@ -162,16 +162,10 @@ iconi {
 
 /* name of photographer */
 
-@font-face {
-  font-family: bodoni;
-  src: url(/Fonts/Bodoni\ 72\ Smallcaps\ Book.ttf)
-
-}
 
 .name {
   font-size: 60px;
   color:black;
-  font-family: bodoni;
   text-align: center;
   margin: 50px;
   
